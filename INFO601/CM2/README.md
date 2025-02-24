@@ -41,7 +41,7 @@ while ATraiter :
 Sans données supplémentaires, ce parcours ne sert pas à grand chose. </br>
 On ajoute souvent un tableau Prod[] qui sauvegarde chaque 
 sommet, son "predecesseur" lors du parcours. </br>
-![Parcours](./CM2-Parcours.png)
+![Parcours](./CM2-Parcours.png) </br>
 <ins>Complexité</ins> : Cet algorithme a une complexité au pire de cas de 0 (n+m). </br>
 
 <ins>Variante</ins> : parcours en largeur</br> 
@@ -63,7 +63,7 @@ while ATraiter :
             ATraiter.append(v)
             Pred[v] = s
 ```
-![Parcours-largeur](./CM2-Parcours-Largeur.png)
+![Parcours-largeur](./CM2-Parcours-Largeur.png) </br>
 <ins> Proposition</ins> :  Le parcours en largeur trouve les plus courts chemins au départ de s0. </br>
 > [!WARNING]
 > Il ne faut pas utiliser un tableau pour ATraiter !!!
@@ -71,4 +71,5 @@ while ATraiter :
 Si on utilise une file (par exemple type deque en Python) la complexité est O(n + m) </br>
 <ins> Applications</ins> :
 - Tester si un graphe est biparti.
-
+</br>
+![Tester](./CM2-Tester.png) </br>
